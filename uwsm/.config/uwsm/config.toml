@@ -1,0 +1,42 @@
+[general]
+# 图像界面主题
+theme = "default"  # 你可以尝试 "dark" 或其他可用的主题
+
+# 启动时显示窗口
+show_on_startup = true
+
+# 自动隐藏
+auto_hide = false
+
+# 窗口大小和位置
+width = 600
+height = 400
+x = "center" # 或具体的像素值
+y = "center" # 或具体的像素值
+
+[behavior]
+# 激活窗口的方式，例如 "click" 或 "hover"
+activate_on = "click"
+
+# 搜索时是否忽略大小写
+ignore_case = true
+
+# 搜索时是否匹配窗口标题（true）或类名（false）
+match_title = true
+
+[keybindings]
+# 激活 uwsm 的快捷键
+toggle = "Super_L+space"
+
+# 选择下一个窗口
+next = "Tab"
+
+# 选择上一个窗口
+prev = "Shift+Tab"
+
+# 关闭 uwsm
+close = "Escape"
+
+# 激活选中的窗口
+activate = "Return"
+
