@@ -20,5 +20,5 @@ cd ~/dotfiles
 
 It will be  
 
-- `mv ~/.config/<program_config_dir> to  ~/dotfiles/<program_config_dir>/.config/<program_config_dir>`
+- `mv ~/.config/<program_config_dir>  ~/dotfiles/<program_config_dir>/.config/<program_config_dir>`
 - `stow <program_config_dir>`
