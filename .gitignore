@@ -1,0 +1,43 @@
+*
+.*
+
+# bash 
+!.bashrc
+
+# git
+!.gitignore
+
+## .config
+.config/*
+
+# btop 
+!.config/btop/
+
+# electron 
+!.config/electron-flags.conf
+
+# fcitx & fcitx5
+!.config/fcitx/
+!.config/fcitx5/
+
+# gtk
+!.config/gtk-3.0/
+!.config/gtk-4.0/
+
+# hyprland
+!.config/hypr/
+
+# kitty
+!.config/kitty/
+
+# rofi
+!.config/rofi/
+
+# uwsm 
+!.config/uwsm/
+
+# wallpaper
+!.config/wallpaper/
+
+# waybar
+!.config/waybar/
