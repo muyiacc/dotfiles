@@ -1,0 +1,4 @@
+[submodule "mpv/.config/mpv"]
+	path = mpv/.config/mpv
+	url = git@github.com:muyiacc/mpv-config.git
+  branch = linux

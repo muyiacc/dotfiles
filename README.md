@@ -7,10 +7,18 @@
 Archlinux
 
 ```shell
-paru -Sy stow
+paru -Syu stow
 ```
 
-### First use
+### No any config
+
+```shell
+git clone https://github.com/muyiacc/dotfiles .
+cd ~/dotfiles
+stow <program_config_dir>
+```
+
+### Haved config?
 
 ```shell
 git clone https://github.com/muyiacc/dotfiles .
@@ -20,5 +28,8 @@ cd ~/dotfiles
 
 It will be  
 
+- `mkdir ~/dotfiles/<program_config_dir>/.config/`
 - `mv ~/.config/<program_config_dir>  ~/dotfiles/<program_config_dir>/.config/<program_config_dir>`
 - `stow <program_config_dir>`
+
+
