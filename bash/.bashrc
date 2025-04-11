@@ -21,3 +21,5 @@ alias grep='grep --color=auto'
 # docker
 alias dk='docker $*'
 alias dco='docker compose $*'
+# application config
+alias hyprnvim='nvim ~/.config/hypr/hyprland.conf'
