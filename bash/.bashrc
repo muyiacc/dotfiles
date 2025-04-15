@@ -15,11 +15,11 @@ export PATH=$PATH:$HOME/bin
 
 ## alias
 # common
-alias ls='ls --color=auto'
+alias ls='ls -a --color=auto'
 alias ll='ls -lh'
 alias grep='grep --color=auto'
 # docker
 alias dk='docker $*'
 alias dco='docker compose $*'
 # application config
-alias hyprnvim='nvim ~/.config/hypr/hyprland.conf'
+alias hyprnvim='nvim ~/dotfiles/hypr/.config/hypr/hyprland.conf'
