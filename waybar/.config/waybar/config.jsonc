@@ -32,12 +32,12 @@
       "on-scroll-up": "hyprctl dispatch workspace e+1",
       "on-scroll-down": "hyprctl dispatch workspace e-1",
       "format-icons": {
-		    "1": "\uf303",
-		    "2": "\uf484",
+      	"1": ">_",
+      	"2": "\uf484",
         "3": "\uf121",
-        "4": "\uf013",
-        "5": "\uf11b"
-	    }
+        "4": "🖋️",
+        "5": "💬"
+      }
   },
   "hyprland/window": {
      "format": "\uf105 {initialTitle}",
